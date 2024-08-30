@@ -4,13 +4,13 @@ import { useTranslation } from 'react-i18next';
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Projects from './components/Projects';
-import ContactUs from './components/ContactUs';
-import Footer from './components/Footer';
+import Navbar from '../src/components/Navbar';
+import About from '../src/components/About';
+import Projects from '../src/components/Projects';
+import ContactUs from '../src/components/ContactUs';
+import Footer from '../src/components/Footer';
 
-import IMG from "./assets/image/cover.jpg"
+import IMG from "../src/assets/image/cover.jpg"
 
 function App() {
     const [t, i18n] = useTranslation("global");
@@ -56,7 +56,7 @@ function App() {
                         <p className="text-sm md:text-3xl lg:text-5xl">{t("header.Welcome to my slice of the internet")}</p>
                     </div>
 
-                    <a id={isVisible ? "hide" : "nohide"} className="mouse-scroll z-50" href="#about"/>
+                    <a id={isVisible ? "hide" : "nohide"} className="mouse-scroll z-50" href="#about"></a>
 
                     <button
                         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}

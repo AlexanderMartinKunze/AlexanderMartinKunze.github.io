@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './index.css';
+import '../public/index.css';
 
-import App from './App';
+import App from '../public/App';
 
 import translation_en from "./assets/locale/en/translation.json"
-import translation_ru from "./assets/locale/ru/translation.json"
+import translation_fa from "./assets/locale/ru/translation.json"
 
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
@@ -19,7 +19,7 @@ i18next.init({
             global: translation_en,
         },
         fa: {
-            global: translation_ru,
+            global: translation_fa,
         },
     },
 })
