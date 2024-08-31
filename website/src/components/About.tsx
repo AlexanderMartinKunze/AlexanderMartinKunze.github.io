@@ -5,7 +5,7 @@ import {IoGameController} from 'react-icons/io5';
 import {TiVideo} from "react-icons/ti";
 import {useTranslation} from 'react-i18next';
 
-import IMG1 from "../assets/image/cover2.png";
+import IMG1 from "../assets/image/cover2.jpg";
 
 import Skills from './Skills';
 

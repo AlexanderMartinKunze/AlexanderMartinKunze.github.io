@@ -42,7 +42,8 @@ function ToggleDark() {
             defaultChecked={selectedTheme === 'dark'}
             className="text-gray-100 dark:text-white"
         >
-            <Expand className="transition-none " duration={750} reversed placeholder={<div>Loading...</div>} />
+            <Expand className="transition-none " duration={750} reversed placeholder={<div>Loading...</div>}
+                    onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}></Expand>
         </button>
     );
 }

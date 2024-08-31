@@ -1,8 +1,8 @@
 import React from 'react'
 
-import IMG_RENT from "../assets/image/projects/rent.jpg";
-import IMG_ECOMMERCE from "../assets/image/projects/ecommerce.png";
-import IMG_FOOD from "../assets/image/projects/food.jpg";
+import IMG_RENT from '../assets/image/project/ecommerce.jpg';
+import IMG_ECOMMERCE from '../assets/image/project/ecommerce.jpg';
+import IMG_FOOD from '../assets/image/project/ecommerce.jpg';
 
 import { useTranslation } from 'react-i18next';
 

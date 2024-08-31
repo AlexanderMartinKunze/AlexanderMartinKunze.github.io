@@ -7,6 +7,8 @@ import {IoLanguage} from 'react-icons/io5';
 
 import EN from "../assets/icon/england.png"
 import RU from "../assets/icon/russia.png"
+import {FaLanguage} from "react-icons/fa6";
+import {MdLanguage} from "react-icons/md";
 
 type Props = {}
 
@@ -31,7 +33,7 @@ function MultiLang({}: Props) {
         document.title = "Alexander KUNZE";
 
     } else if (localStorage.getItem("language") === "ru") {
-        document.documentElement.setAttribute('dir', "rtl");
+        document.documentElement.setAttribute('dir', "ltr");
         document.title = "Александр КУНЦЕ";
 
     }
@@ -48,7 +50,7 @@ function MultiLang({}: Props) {
         {
             value: 'EN',
             label: <button className="flex items-center justify-center mt-1" onClick={() => handleChangeLanguage("ru")}>
-                <p>FA</p> &#10240;<img src={RU} className="rounded" alt="Russia Flag" width="50px" loading="lazy"/>
+                <p>RU</p> &#10240;<img src={RU} className="rounded" alt="Russia Flag" width="50px" loading="lazy"/>
             </button>
         },
     ];
@@ -57,7 +59,7 @@ function MultiLang({}: Props) {
         <div className="text-gray-100 dark:text-white">
             <Dropdown
                 options={options}
-                text={<button><IoLanguage/></button>}
+                text={<button><MdLanguage/></button>}
             />
         </div>
     )

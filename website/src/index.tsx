@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import '../src/index.css';
 
-import App from '../public/App';
+import App from './App';
 
 import translation_en from "./assets/locale/en/translation.json"
 import translation_fa from "./assets/locale/ru/translation.json"
