@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import {useTranslation} from 'react-i18next';
 
 import {FaGithub, FaLinkedin, FaTwitter,} from "react-icons/fa6";
+import {TbFileCv} from "react-icons/tb";
 import MultiLang from './MultiLang';
 import ToggleDark from './ToggleDark';
 
@@ -53,6 +54,8 @@ function Navbar({}: Props) {
                        className="flex items-center justify-center p-0 w-12 h-12 text-black dark:text-white text-3xl hover:text-blue-200 dark:hover:text-blue-100"><FaGithub/></a>
                     <a onClick={removeActive} href="https://linkedin.com/in/alexander-k-269623124" target="_blank"
                        className="flex items-center justify-center p-0 w-12 h-12 text-black dark:text-white text-3xl hover:text-blue-200 dark:hover:text-blue-100"><FaLinkedin/></a>
+                    <a onClick={removeActive} href="https://hh.ru/resume/27c56d4bff0ca6a04f0039ed1f327045383859" target="_blank"
+                       className="flex items-center justify-center p-0 w-12 h-12 text-black dark:text-white text-3xl hover:text-blue-200 dark:hover:text-blue-100"><TbFileCv/></a>
                 </div>
             </nav>
             <div
