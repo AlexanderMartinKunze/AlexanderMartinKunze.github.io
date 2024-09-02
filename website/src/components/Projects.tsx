@@ -15,7 +15,7 @@ function Projects({ }: Props) {
     return (
         <div className="w-full" id="projects">
             <h1 className="text-5xl text-blue-200 dark:text-blue-100 px-4">{t("content.projects")}</h1>
-            <p className="text-slate-800 dark:text-slate-300 px-4 text-justify text-2xl">{t("content.my skills")}</p>
+            <p className="text-slate-800 dark:text-slate-300 px-4 text-justify text-2xl">{t("content.myexperience")}</p>
 
 
             <div className="flex flex-row mt-4 py-3 overflow-y-hidden overflow-x-scroll md:overflow-x-auto">

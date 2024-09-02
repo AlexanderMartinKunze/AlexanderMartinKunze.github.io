@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {FaCamera, FaDumbbell, FaHeadphones, FaRoad} from 'react-icons/fa6';
+import {MdFamilyRestroom} from "react-icons/md";
 import {IoGameController} from 'react-icons/io5';
 import {TiVideo} from "react-icons/ti";
 import {useTranslation} from 'react-i18next';
@@ -50,6 +51,10 @@ function About({}: Props) {
                         <p>{t("content.game")}</p>
                     </div>
                     <div className="flex items-center w-fit mx-5">
+                        <MdFamilyRestroom className="mx-2 text-blue-200 dark:text-blue-100 text-4xl"/>
+                        <p>{t("content.family")}</p>
+                    </div>
+                    <div className="flex items-center w-fit mx-5">
                         <TiVideo className="mx-2 text-blue-200 dark:text-blue-100 text-4xl"/>
                         <p>{t("content.movie")}</p>
                     </div>
@@ -62,7 +67,6 @@ function About({}: Props) {
                         <p>{t("content.travel")}</p>
                     </div>
                 </div>
-
                 <Skills/>
             </div>
         </div>

@@ -47,7 +47,7 @@ function Skills({}: Props) {
 
                 <div
                     className="w-full overflow-x-scroll overflow-y-hidden md:overflow-x-auto md:flex md:justify-center">
-                    <div className="flex flex-row text-7xl skills mt-4 py-3 w-fit">
+                    <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
                         <CsharpOriginal className="text-white dark:text-black"/>
                         <DotnetcoreOriginal className="text-white dark:text-black"/>
                         <ElasticsearchOriginalWordmark className="text-white dark:text-black"/>

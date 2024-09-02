@@ -17,8 +17,9 @@
 
     "my interests": "My Interests",
     "music": "music",
-    "sport": "sport",
+    "sport": "Mountain Biking, Hiking",
     "game": "game",
+    "family": "spent time with my family",
     "movie": "movie",
     "photo": "photo",
     "travel": "travel",
@@ -27,11 +28,13 @@
     "skills": "I'm a developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js",
 
     "download cv": "Download CV",
-    "projects": "projects",
-    "pr": "I'm a developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js",
+    "projects": "Experience",
+    "pr": "I'm a developer with experience in C#, .Net Core, TypeScript and JavaScript, and expertise in frameworks like Asp.net, React, Node.js",
 
     "e-commerce": "E-Commerce",
     "shopping": "Our E-commerce project, powered by React.js, Next.js, and MongoDB, reimagines the online shopping experience. Seamlessly blending the frontend magic of React.js with the server-side rendering capabilities of Next.js",
+
+    "myexperience": "I'm C # developer with over 15 years of experience in various business areas",
 
     "rent car": "rent car",
     "rent": "Experience the future of car rental services with our project, leveraging React.js and Next.js. With the power of Tailwind CSS, we've crafted a sleek and intuitive interface that seamlessly adapts to your preferences.",
@@ -42,7 +45,7 @@
     "contact": "just say hello",
 
     "copy": "2024 Alexander Kunze, All rights reserved",
-    "made with": "Made With",
+    "made with": "Made",
     "in erfurt": "in Erfurt"
   }
 }
