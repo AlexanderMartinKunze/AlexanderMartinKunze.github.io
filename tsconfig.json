@@ -17,5 +17,5 @@
     "jsx": "react-jsx"
   },
   "include": ["src",
-    "react-app-env.d.ts", "vanta.d.ts"]
+    "website/react-app-env.d.ts", "vanta.d.ts"]
 }
