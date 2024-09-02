@@ -25,22 +25,25 @@
     "travel": "travel",
 
     "my skills": "my skills",
-    "skills": "I'm a developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js",
+    "skills": "",
 
     "download cv": "Download CV",
     "projects": "Experience",
     "pr": "I'm a developer with experience in C#, .Net Core, TypeScript and JavaScript, and expertise in frameworks like Asp.net, React, Node.js",
 
-    "e-commerce": "E-Commerce",
-    "shopping": "Our E-commerce project, powered by React.js, Next.js, and MongoDB, reimagines the online shopping experience. Seamlessly blending the frontend magic of React.js with the server-side rendering capabilities of Next.js",
+    "boservice": "B & O Service AG Munich  (100% Remote)",
+    "boservice-desc": "I developed advanced planning algorithms specifically designed for professional craftsmen. These algorithms utilize artificial intelligence to optimize routes, leading to significant time and cost savings. By analyzing traffic data, customer locations, and job priorities, I ensured that craftsmen could complete their tasks efficiently and on time.\n\nTo foster a flexible and iterative development environment, I applied the agile methodology ‘Scrum’. This approach allowed the team to quickly respond to changes and continuously improve. Through regular sprint planning, daily stand-up meetings, and retrospectives, we significantly enhanced team collaboration and communication.\n\nTo ensure software quality and reliability, I implemented test automation at all levels. This included end-to-end testing, unit testing, integration testing, and performance testing. By using automated testing tools and frameworks, we were able to detect and fix errors early, resulting in more stable and robust software.",
 
     "myexperience": "I'm C # developer with over 15 years of experience in various business areas",
 
-    "rent car": "rent car",
-    "rent": "Experience the future of car rental services with our project, leveraging React.js and Next.js. With the power of Tailwind CSS, we've crafted a sleek and intuitive interface that seamlessly adapts to your preferences.",
+    "drschnell": "Dr Schnell GmbH Munich (100% Remote)",
+    "drschnell-desc": "I played a pivotal role in transitioning our development framework from the Xamarin platform to MAUI, ensuring a smooth and efficient migration. In addition to this, I took on the responsibilities of a DevOps engineer, expertly managing and optimizing workflows within the Azure DevOps system and on the GitHub Actions platform. My contributions also included the implementation of innovative new features, leveraging the capabilities of both the Xamarin and MAUI platforms to enhance our applications’ functionality and user experience.",
 
-    "food delivery": "food delivery",
-    "food": "Our Food Delivery project, powered by MongoDB, offers a seamless ordering experience in multiple languages. With MongoDB's flexible data management, we ensure efficient order processing and personalized user experiences.",
+    "metrohm": "Metrohm AG Herisau (20% Remote, 80% On site)",
+    "metrohm-desc": "Throughout the software development lifecycle, I spearheaded the creation of innovative applications and integration tools, seamlessly blending hardware and software components. My efforts ensured robust and efficient solutions tailored to meet diverse needs. Additionally, I implemented comprehensive automated testing strategies at every level, significantly enhancing the reliability and performance of our systems.",
+
+    "mia": "Mia-Systems & Software GmbH Dornbirn (20% Remote, 80% On site)",
+    "mia-desc": "I developed Android applications using the Xamarin.Forms platform, which allowed me to create cross-platform mobile apps with a single codebase. In addition to my development work, I provided technical leadership for various internal projects, ensuring that they were completed efficiently and met all technical requirements. My role also involved web development, where I utilized TypeScript and Angular to build dynamic and responsive web applications.\n\nOne of my key responsibilities was creating features within the integrated testing environment known as “Release Verification.” This often involved automating test cases to streamline the verification process and ensure the reliability of the software. Furthermore, I developed strategies for information storage and retrieval, optimizing data management and access within the projects I worked on.",
 
     "contact": "just say hello",
 

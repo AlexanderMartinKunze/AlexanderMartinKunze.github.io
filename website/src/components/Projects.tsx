@@ -1,15 +1,18 @@
 import React from 'react'
 
-import IMG_RENT from '../assets/image/project/ecommerce.jpg';
-import IMG_ECOMMERCE from '../assets/image/project/ecommerce.jpg';
-import IMG_FOOD from '../assets/image/project/ecommerce.jpg';
+import IMG_BOSERVICE from '../assets/image/project/buoService.jpg';
+import IMG_DRSCHNELL from '../assets/image/project/qkiss.png';
+import IMG_METROHM from '../assets/image/project/metrohm.jpg';
+import IMG_MIA from '../assets/image/project/Mia.jpg';
 
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
+import {TbWorldWww} from "react-icons/tb";
+import {GrDocumentUser} from "react-icons/gr";
 
 type Props = {}
 
 
-function Projects({ }: Props) {
+function Projects({}: Props) {
     const [t, i18n] = useTranslation("global");
 
     return (
@@ -18,57 +21,137 @@ function Projects({ }: Props) {
             <p className="text-slate-800 dark:text-slate-300 px-4 text-justify text-2xl">{t("content.myexperience")}</p>
 
 
-            <div className="flex flex-row mt-4 py-3 overflow-y-hidden overflow-x-scroll md:overflow-x-auto">
-                <div className="flex flex-col bg-slate-600 dark:bg-slate-100 p-5 rounded-2xl w-full h-full lg:w-1/3 mx-5 [min-height:65vh]">
+            <div className="flex flex-wrap mt-5 gap-5 py-5 overflow-y-hidden overflow-x-scroll md:overflow-x-auto">
+                <div
+                    className="flex flex-col bg-slate-600 dark:bg-slate-100 p-5 rounded-2xl w-full h-full lg:w-1/3 mx-5 [min-height:65vh]">
 
                     <div className="topimg">
-                        <img src={IMG_ECOMMERCE} alt="" className="w-full rounded-xl" />
+                        <img src={IMG_BOSERVICE} alt="" className="w-full rounded-xl"/>
                     </div>
 
                     <div className="text-white dark:text-black">
-                        <h2 className="mt-4 text-2xl lg:text-4xl">{t("content.e-commerce")}</h2>
-                        <p className="text-justify">{t("content.shopping")}</p>
+                        <h2 className="mt-4 text-2xl lg:text-3xl">{t("content.boservice")}</h2>
+                        <p style={{whiteSpace: 'pre-wrap'}}
+                           className="text-justify">{t("content.boservice-desc")}</p>
                     </div>
 
-                    <div className="flex flex-row text-green-100">
-                        <p className="mr-2">#react.js</p>
-                        <p className="mr-2">#mongodb</p>
+                    <div className="flex flex-wrap-reverse text-green-100">
+                        C#, .Net, .Net Core, NServiceBus, Microservices, Saga Pattern, Azure Devops, Git, Rider,
+                        VS2022,
+                        K8s, K6, Helm, Azure, Docker, Ranger, Scrum, Open AI, EF Core, Asp.net core, Microservice,
+                        CQRS,
+                        DDD, React.js
+                        <p className="mr-2">#CSharp</p>
+                        <p className="mr-2">#.Net Core</p>
+                        <p className="mr-2">#NServiceBus</p>
+                        <p className="mr-2">#Microservices</p>
+                        <p className="mr-2">#Saga Pattern</p>
+                        <p className="mr-2">#Azure Devops</p>
+                        <p className="mr-2">#Git</p>
+                        <p className="mr-2">#K8s</p>
+                        <p className="mr-2">#Helm</p>
+                        <p className="mr-2">#Dockerf</p>
+                        <p className="mr-2">#EF Core</p>
+                        <p className="mr-2">#Opena AI</p>
+                        <p className="mr-2">#Asp.net core</p>
+                        <p className="mr-2">#CQRS</p>
+                    </div>
+                    <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
+                        <a href="https://buo.de/service/">
+                            <TbWorldWww className="text-white dark:text-black" />
+                        </a>
+                        <GrDocumentUser className="text-white dark:text-black"/>
+                    </div>
+                </div>
+                <div
+                    className="flex flex-col bg-slate-600 dark:bg-slate-100 p-5 rounded-2xl w-full h-full lg:w-1/3 mx-5 [min-height:65vh]">
+
+                    <div className="topimg">
+                        <img src={IMG_DRSCHNELL} alt="" className="w-full rounded-xl"/>
+                    </div>
+
+                    <div className="text-white dark:text-black">
+                        <h2 className="mt-4 text-2xl lg:text-3xl">{t("content.drschnell")}</h2>
+                        <p className="text-justify">{t("content.drschnell-desc")}</p>
+                    </div>
+
+                    <div className="flex flex-wrap-reverse text-green-100">
+                        <p className="mr-2">#CSharp</p>
+                        <p className="mr-2">#.Net Framework</p>
+                        <p className="mr-2">#.Net Core</p>
+                        <p className="mr-2">#Xamarin</p>
+                        <p className="mr-2">#Maui</p>
+                        <p className="mr-2">#Android</p>
+                        <p className="mr-2">#Git</p>
+                        <p className="mr-2">#Kotlin</p>
+                        <p className="mr-2">#Github Actions</p>
+                    </div>
+                    <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
+                        <a href="https://www.dr-schnell.com/">
+                            <TbWorldWww className="text-white dark:text-black"/>
+                        </a>
                     </div>
 
                 </div>
-                <div className="flex flex-col bg-slate-600 dark:bg-slate-100 p-5 rounded-2xl w-full h-full lg:w-1/3 mx-5 [min-height:65vh]">
+                <div
+                    className="flex flex-col bg-slate-600 dark:bg-slate-100 p-5 rounded-2xl w-full h-full lg:w-1/3 mx-5 [min-height:65vh]">
 
                     <div className="topimg">
-                        <img src={IMG_RENT} alt="" className="w-full rounded-xl" />
+                        <img src={IMG_METROHM} alt="" className="w-full rounded-xl"/>
                     </div>
 
                     <div className="text-white dark:text-black">
-                        <h2 className="mt-4 text-2xl lg:text-4xl">{t("content.rent car")}</h2>
-                        <p className="text-justify">{t("content.rent")}</p>
+                        <h2 className="mt-4 text-2xl lg:text-3xl">{t("content.metrohm")}</h2>
+                        <p className="text-justify">{t("content.metrohm-desc")}</p>
                     </div>
 
-                    <div className="flex flex-row text-green-100">
-                        <p className="mr-2">#react.js</p>
-                        <p className="mr-2">#mongodb</p>
+                    <div className="flex flex-wrap-reverse text-green-100">
+                        <p className="mr-2">#CSharp</p>
+                        <p className="mr-2">#.Net Core</p>
+                        <p className="mr-2">#EF Core</p>
+                        <p className="mr-2">#NHibernate</p>
+                        <p className="mr-2">#NUnit</p>
+                        <p className="mr-2">#Git</p>
+                        <p className="mr-2">#WPF</p>
+                        <p className="mr-2">#WCF</p>
+                        <p className="mr-2">#Specflow</p>
+                        <p className="mr-2">#ProtoBuf</p>
                     </div>
-
+                    <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
+                        <a href="https://www.metrohm.com/de_at/">
+                            <TbWorldWww className="text-white dark:text-black"/>
+                        </a>
+                    </div>
                 </div>
-                <div className="flex flex-col bg-slate-600 dark:bg-slate-100 p-5 rounded-2xl w-full h-full lg:w-1/3 mx-5 [min-height:65vh]">
+                <div
+                    className="flex flex-col bg-slate-600 dark:bg-slate-100 p-5 rounded-2xl w-full h-full lg:w-1/3 mx-5 [min-height:65vh]">
 
                     <div className="topimg">
-                        <img src={IMG_FOOD} alt="" className="w-full rounded-xl" />
+                        <img src={IMG_MIA} alt="" className="w-full rounded-xl"/>
                     </div>
 
                     <div className="text-white dark:text-black">
-                        <h2 className="mt-4 text-2xl lg:text-4xl">{t("content.food delivery")}</h2>
-                        <p className="text-justify">{t("content.shopping")}</p>
+                        <h2 className="mt-4 text-2xl lg:text-3xl">{t("content.mia")}</h2>
+                        <p className="text-justify">{t("content.mia-desc")}</p>
                     </div>
 
-                    <div className="flex flex-row text-green-100">
-                        <p className="mr-2">#react.js</p>
-                        <p className="mr-2">#mongodb</p>
+                    <div className="flex flex-wrap-reverse text-green-100">
+                        <p className="mr-2">#CSharp</p>
+                        <p className="mr-2">#.Net Core</p>
+                        <p className="mr-2">#EF Core</p>
+                        <p className="mr-2">#RabbitMq</p>
+                        <p className="mr-2">#Angular</p>
+                        <p className="mr-2">#Git</p>
+                        <p className="mr-2">#WPF</p>
+                        <p className="mr-2">#WCF</p>
+                        <p className="mr-2">#DevExpress</p>
+                        <p className="mr-2">#OracleDB</p>
                     </div>
-
+                    <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
+                        <a href="https://mia-systems.net/">
+                            <TbWorldWww className="text-white dark:text-black"/>
+                        </a>
+                    </div>
                 </div>
             </div>
 
