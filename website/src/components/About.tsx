@@ -25,7 +25,7 @@ function About({}: Props) {
 
                 <div className="flex flex-col justify-center">
                     <h1 className="text-base lg:text-5xl text-blue-200 dark:text-blue-100">{t("content.alexanderkunze")}</h1>
-                    <h2 className="text-base lg:text-2xl text-black dark:text-white">C# DEVELOPER</h2>
+                    <h2 className="text-base lg:text-2xl text-black dark:text-white">{t("header.CSharpDeveloper")}</h2>
                     <p className="text-slate-800 dark:text-slate-300 text-sm lg:text-base text-justify">{t("content.reactjs")}</p>
 
                     <button

@@ -6,7 +6,7 @@ import '../src/index.css';
 import App from './App';
 
 import translation_en from "./assets/locale/en/translation.json"
-import translation_fa from "./assets/locale/ru/translation.json"
+import translation_ru from "./assets/locale/ru/translation.json"
 
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
@@ -18,8 +18,8 @@ i18next.init({
         en: {
             global: translation_en,
         },
-        fa: {
-            global: translation_fa,
+        ru: {
+            global: translation_ru,
         },
     },
 })

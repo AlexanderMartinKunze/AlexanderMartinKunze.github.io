@@ -1,48 +1,55 @@
 {
   "navbar": {
-    "work": "works",
-    "skills": "skills",
-    "about": "about",
-    "contact": "contact"
+    "work": "работы",
+    "skills": "навыки",
+    "about": "обо мне",
+    "contact": "связаться с"
   },
   "header": {
-    "hello": "hello",
-    "Welcome to my slice of the internet": "Welcome to my slice of the internet",
-    "cancel": "cancel",
-    "continue": "continue"
+    "hello": "Здравствуйте",
+    "Welcome to my slice of the internet": "Добро пожаловать в мой кусочек интернета",
+    "CSharpDeveloper": "РАЗРАБОТЧИК C#",
+    "cancel": "отменить",
+    "continue": "продолжить"
   },
   "content": {
-    "alexanderkunze": "Alexander Kunze",
-    "reactjs": "I am a creativity-orientated and passionate developer and solutions architect who strives for better software solutions. I bring a background in the .NET environment, design enterprise solutions and demonstrate knowledge of distributed system, cloud and container technologies and agile methodologies.\nI love new challenges and regularly set myself new goals to improve my knowledge and soft skills.",
+    "alexanderkunze": "Александр Кунце",
+    "reactjs": "Я ориентированный на творчество и страстный разработчик и архитектор решений, который стремится к созданию лучших программных решений. Я работаю в среде .NET, проектирую корпоративные решения и демонстрирую знания в области распределенных систем, облачных и контейнерных технологий, а также agile-методологий.\nЯ люблю новые вызовы и регулярно ставлю перед собой новые цели для совершенствования своих знаний и навыков.",
 
-    "my interests": "My Interests",
-    "music": "music",
-    "sport": "sport",
+    "my interests": "Мои интересы",
+    "music": "музыка",
+    "sport": "Горный велосипед, пеший туризм",
     "game": "game",
-    "movie": "movie",
-    "photo": "photo",
-    "travel": "travel",
+    "family": "проводил время с семьей",
+    "movie": "кино",
+    "photo": "фотография",
+    "travel": "путешествие",
 
-    "my skills": "my skills",
-    "skills": "I'm a developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js",
+    "my skills": "мои навыки",
+    "skills": "",
 
-    "download cv": "Download CV",
-    "projects": "projects",
-    "pr": "I'm a developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js",
+    "download cv": "Скачать резюме",
+    "projects": "Опыт",
+    "pr": "Я разработчик с опытом работы на C#, .Net Core, TypeScript и JavaScript, а также с опытом работы с такими фреймворками, как Asp.net, React, Node.js.",
 
-    "e-commerce": "E-Commerce",
-    "shopping": "Our E-commerce project, powered by React.js, Next.js, and MongoDB, reimagines the online shopping experience. Seamlessly blending the frontend magic of React.js with the server-side rendering capabilities of Next.js",
+    "boservice": "B & O Service AG Мюнхен (100% удаленно)",
+    "boservice-desc": "Я разработал передовые алгоритмы планирования, специально предназначенные для профессиональных мастеров. Эти алгоритмы используют искусственный интеллект для оптимизации маршрутов, что приводит к значительной экономии времени и средств. Анализируя данные о дорожном движении, местонахождении клиентов и приоритетах работы, я обеспечил эффективное и своевременное выполнение задач ремесленниками.\n\nЧтобы создать гибкую и итеративную среду разработки, я применил гибкую методологию «Scrum». Этот подход позволил команде быстро реагировать на изменения и постоянно совершенствоваться. Благодаря регулярному планированию спринтов, ежедневным совещаниям и ретроспективам мы значительно улучшили взаимодействие и коммуникацию в команде.\n\nЧтобы обеспечить качество и надежность программного обеспечения, я внедрил автоматизацию тестирования на всех уровнях. Это включало сквозное тестирование, модульное тестирование, интеграционное тестирование и тестирование производительности. Благодаря использованию инструментов и фреймворков автоматизированного тестирования мы смогли обнаруживать и исправлять ошибки на ранних стадиях, что привело к созданию более стабильного и надежного программного обеспечения.",
 
-    "rent car": "rent car",
-    "rent": "Experience the future of car rental services with our project, leveraging React.js and Next.js. With the power of Tailwind CSS, we've crafted a sleek and intuitive interface that seamlessly adapts to your preferences.",
+    "myexperience": "Я C # разработчик с более чем 15-летним опытом работы в различных сферах бизнеса.",
 
-    "food delivery": "food delivery",
-    "food": "Our Food Delivery project, powered by MongoDB, offers a seamless ordering experience in multiple languages. With MongoDB's flexible data management, we ensure efficient order processing and personalized user experiences.",
+    "drschnell": "Dr Schnell GmbH Мюнхен (100% удаленно)",
+    "drschnell-desc": "Я сыграл ключевую роль в переходе нашей системы разработки с платформы Xamarin на MAUI, обеспечив плавный и эффективный переход. В дополнение к этому я взял на себя обязанности инженера DevOps, умело управляя и оптимизируя рабочие процессы в системе Azure DevOps и на платформе GitHub Actions. Мой вклад также включал внедрение новых инновационных функций, используя возможности платформ Xamarin и MAUI для расширения функциональности наших приложений и улучшения пользовательского опыта.",
 
-    "contact": "just say hello",
+    "metrohm": "Metrohm AG Herisau (20% удаленно, 80% на месте)",
+    "metrohm-desc": "На протяжении всего жизненного цикла разработки программного обеспечения я руководил созданием инновационных приложений и средств интеграции, органично сочетая аппаратные и программные компоненты. Мои усилия обеспечивали надежные и эффективные решения, отвечающие самым разным потребностям. Кроме того, я внедрил комплексные стратегии автоматизированного тестирования на всех уровнях, что значительно повысило надежность и производительность наших систем.",
 
-    "copy": "2024 Alexander Kunze, All rights reserved",
-    "made with": "Made With",
-    "in erfurt": "in Erfurt"
+    "mia": "Mia-Systems & Software GmbH Дорнбирн (20% удаленно, 80% на месте)",
+    "mia-desc": "Я разрабатывал Android-приложения с использованием платформы Xamarin.Forms, что позволило мне создавать кросс-платформенные мобильные приложения с единой кодовой базой. Помимо разработки, я осуществлял техническое руководство различными внутренними проектами, обеспечивая их эффективное завершение и соответствие всем техническим требованиям. Моя роль также включала в себя веб-разработку, где я использовал TypeScript и Angular для создания динамичных и отзывчивых веб-приложений.\n\nОдной из моих ключевых обязанностей было создание функций в интегрированной среде тестирования, известной как «Верификация релиза». Это часто включало автоматизацию тестовых ситуаций для упрощения процесса проверки и обеспечения надежности программного обеспечения. Кроме того, я разрабатывал стратегии хранения и поиска информации, оптимизируя управление данными и доступ к ним в рамках проектов, над которыми я работал.",
+
+    "contact": "просто скажи привет",
+
+    "copy": "2024 Александр Кунце, Все права защищены",
+    "made with": "Сделано",
+    "in erfurt": "в Эрфурте"
   }
 }

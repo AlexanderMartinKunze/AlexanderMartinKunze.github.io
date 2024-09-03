@@ -3,11 +3,8 @@ import React from 'react';
 import Dropdown from './Dropdown'
 
 import {useTranslation} from 'react-i18next';
-import {IoLanguage} from 'react-icons/io5';
-
 import EN from "../assets/icon/england.png"
 import RU from "../assets/icon/russia.png"
-import {FaLanguage} from "react-icons/fa6";
 import {MdLanguage} from "react-icons/md";
 
 type Props = {}
@@ -42,13 +39,13 @@ function MultiLang({}: Props) {
     // Dropdown values
     const options = [
         {
-            value: 'FA',
+            value: 'EN',
             label: <button className="flex items-center justify-center" onClick={() => handleChangeLanguage("en")}>
                 <p>EN</p> &#10240;<img src={EN} className="rounded" alt="England Flag" width="50px" loading="lazy"/>
             </button>
         },
         {
-            value: 'EN',
+            value: 'RU',
             label: <button className="flex items-center justify-center mt-1" onClick={() => handleChangeLanguage("ru")}>
                 <p>RU</p> &#10240;<img src={RU} className="rounded" alt="Russia Flag" width="50px" loading="lazy"/>
             </button>
