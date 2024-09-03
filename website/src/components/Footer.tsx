@@ -18,7 +18,7 @@ function Footer({}: Props) {
                 <span className="mx-1">
                     <img src="https://emojicdn.elk.sh/%F0%9F%A9%B5" alt="" width="20"/>
                 </span>
-                {t("content.in rasht")} :)
+                {t("content.in erfurt")} :)
             </p>
 
         </footer>

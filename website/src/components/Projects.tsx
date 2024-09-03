@@ -5,6 +5,7 @@ import IMG_DRSCHNELL from '../assets/image/project/qkiss.png';
 import IMG_METROHM from '../assets/image/project/metrohm.jpg';
 import IMG_METROHM_Cert from '../assets/image/documents/metrohm.jpg'
 import IMG_MIA from '../assets/image/project/Mia.jpg';
+import IMG_BLUM from '../assets/image/project/blum.jpg';
 
 import {useTranslation} from 'react-i18next';
 import {TbWorldWww} from "react-icons/tb";
@@ -74,7 +75,8 @@ function Projects({}: Props) {
 
                     <div className="text-white dark:text-black">
                         <h2 className="mt-4 text-2xl lg:text-3xl">{t("content.drschnell")}</h2>
-                        <p className="text-justify">{t("content.drschnell-desc")}</p>
+                        <p style={{whiteSpace: 'pre-wrap'}}
+                           className="text-justify">{t("content.drschnell-desc")}</p>
                     </div>
 
                     <div className="flex flex-wrap-reverse text-green-100">
@@ -104,7 +106,8 @@ function Projects({}: Props) {
 
                     <div className="text-white dark:text-black">
                         <h2 className="mt-4 text-2xl lg:text-3xl">{t("content.metrohm")}</h2>
-                        <p className="text-justify">{t("content.metrohm-desc")}</p>
+                        <p style={{whiteSpace: 'pre-wrap'}}
+                           className="text-justify">{t("content.metrohm-desc")}</p>
                     </div>
 
                     <div className="flex flex-wrap-reverse text-green-100">
@@ -141,7 +144,8 @@ function Projects({}: Props) {
 
                     <div className="text-white dark:text-black">
                         <h2 className="mt-4 text-2xl lg:text-3xl">{t("content.mia")}</h2>
-                        <p className="text-justify">{t("content.mia-desc")}</p>
+                        <p style={{whiteSpace: 'pre-wrap'}}
+                           className="text-justify">{t("content.mia-desc")}</p>
                     </div>
 
                     <div className="flex flex-wrap-reverse text-green-100">
@@ -162,7 +166,39 @@ function Projects({}: Props) {
                         </a>
                     </div>
                 </div>
+                <div
+                    className="flex flex-col bg-slate-600 dark:bg-slate-100 p-5 rounded-2xl w-full h-full lg:w-1/3 mx-5 [min-height:65vh]">
+
+                    <div className="topimg">
+                        <img src={IMG_BLUM} alt="" className="w-full rounded-xl"/>
+                    </div>
+
+                    <div className="text-white dark:text-black">
+                        <h2 className="mt-4 text-2xl lg:text-3xl">{t("content.blum")}</h2>
+                        <p style={{whiteSpace: 'pre-wrap'}}
+                           className="text-justify">{t("content.blum-desc")}</p>
+                    </div>
+
+                    <div className="flex flex-wrap-reverse text-green-100">
+                        <p className="mr-2">#CSharp</p>
+                        <p className="mr-2">#.Net Core</p>
+                        <p className="mr-2">#EF Core</p>
+                        <p className="mr-2">#VBA</p>
+                        <p className="mr-2">#CamWorks</p>
+                        <p className="mr-2">#Git</p>
+                        <p className="mr-2">#SolidWorks</p>
+                        <p className="mr-2">#WinForms</p>
+                        <p className="mr-2">#DevExpress</p>
+                        <p className="mr-2">#GitLab</p>
+                    </div>
+                    <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
+                        <a href="https://mia-systems.net/">
+                            <TbWorldWww className="text-white dark:text-black"/>
+                        </a>
+                    </div>
+                </div>
             </div>
+
 
         </div>
     )

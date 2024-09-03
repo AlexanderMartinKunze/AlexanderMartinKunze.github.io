@@ -5,6 +5,7 @@ import {MdFamilyRestroom} from "react-icons/md";
 import {IoGameController} from 'react-icons/io5';
 import {TiVideo} from "react-icons/ti";
 import {useTranslation} from 'react-i18next';
+import DownloadLink from "react-download-link";
 
 import IMG1 from "../assets/image/cover2.jpg";
 
@@ -28,8 +29,10 @@ function About({}: Props) {
                     <h2 className="text-base lg:text-2xl text-black dark:text-white">{t("header.CSharpDeveloper")}</h2>
                     <p className="text-slate-800 dark:text-slate-300 text-sm lg:text-base text-justify">{t("content.reactjs")}</p>
 
-                    <button
-                        className="flex bg-blue-200 dark:bg-blue-100 text-white dark:text-black w-fit mt-4 py-2 px-4 rounded-md">{t("content.download cv")}</button>
+                    <DownloadLink
+                      filename={"CV_AlexanderKunze_RU.PDF"}
+                      exportFile={() => ""}
+                        label={t("content.download cv")}/>
                 </div>
             </div>
 

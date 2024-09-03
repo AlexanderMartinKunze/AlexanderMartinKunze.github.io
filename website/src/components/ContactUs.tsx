@@ -18,8 +18,8 @@ const ContactUs: React.FC<ContactProps> = () => {
         if (!form.current) return;
 
         emailjs
-            .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-                publicKey: 'YOUR_PUBLIC_KEY',
+            .sendForm('service_tuunw9b', 'template_3w46khg', form.current, {
+                publicKey: 'xWhyHWv6rM54IekvN',
             })
             .then(
                 (response: EmailJSResponseStatus) => {
