@@ -3,17 +3,20 @@ import React from 'react'
 import IMG_BOSERVICE from '../assets/image/project/buoService.jpg';
 import IMG_DRSCHNELL from '../assets/image/project/qkiss.png';
 import IMG_METROHM from '../assets/image/project/metrohm.jpg';
+import IMG_METROHM_Cert from '../assets/image/documents/metrohm.jpg'
 import IMG_MIA from '../assets/image/project/Mia.jpg';
 
 import {useTranslation} from 'react-i18next';
 import {TbWorldWww} from "react-icons/tb";
-import {GrDocumentUser} from "react-icons/gr";
+import {PhotoProvider, PhotoView} from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 
 type Props = {}
 
 
 function Projects({}: Props) {
     const [t, i18n] = useTranslation("global");
+
 
     return (
         <div className="w-full" id="projects">
@@ -58,9 +61,8 @@ function Projects({}: Props) {
                     </div>
                     <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
                         <a href="https://buo.de/service/">
-                            <TbWorldWww className="text-white dark:text-black" />
+                            <TbWorldWww className="text-white dark:text-black"/>
                         </a>
-                        <GrDocumentUser className="text-white dark:text-black"/>
                     </div>
                 </div>
                 <div
@@ -118,9 +120,16 @@ function Projects({}: Props) {
                         <p className="mr-2">#ProtoBuf</p>
                     </div>
                     <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
-                        <a href="https://www.metrohm.com/de_at/">
+                        <a href="https://www.metrohm.com/">
                             <TbWorldWww className="text-white dark:text-black"/>
                         </a>
+                        <PhotoProvider>
+                            <PhotoView src={IMG_METROHM_Cert}>
+                                <img src={IMG_METROHM_Cert} width={100} height={100} style={{objectFit: 'cover'}}
+                                     alt="Metrohm Certificate"/>
+                            </PhotoView>
+                        </PhotoProvider>
+
                     </div>
                 </div>
                 <div
