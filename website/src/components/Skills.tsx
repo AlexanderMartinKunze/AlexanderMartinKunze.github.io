@@ -4,32 +4,32 @@ import {
     AngularOriginal,
     AzuresqldatabaseOriginal,
     BlazorOriginal,
-    BootstrapOriginalWordmark,
+    BootstrapOriginal,
     CsharpOriginal,
-    DockerOriginalWordmark,
+    DockerOriginal,
     DotnetcoreOriginal,
-    ElasticsearchOriginalWordmark,
-    GitOriginalWordmark,
+    GitOriginal,
     GithubOriginal,
     GitlabOriginal,
     GrafanaOriginal,
     HelmOriginal,
     Html5Original,
     JavascriptOriginal,
-    TailwindcssPlainWordmark,
+    TailwindcssOriginal,
     ReduxOriginal,
     JetbrainsOriginal,
     JqueryOriginal,
     MariadbOriginal,
     MicrosoftsqlserverPlain,
-    MongodbOriginalWordmark,
+    MongodbOriginal,
     MysqlOriginal,
-    NhibernateOriginalWordmark,
+    NhibernateOriginal,
     NodejsOriginal,
     PythonOriginal,
-    RabbitmqOriginalWordmark,
-    RancherOriginalWordmark,
+    RabbitmqOriginal,
+    RancherOriginal,
     ReactOriginal,
+    ElasticsearchOriginal,
 } from 'devicons-react';
 
 import {useTranslation} from 'react-i18next';
@@ -48,9 +48,9 @@ function Skills({}: Props) {
                 <div
                     className="w-full overflow-x-scroll overflow-y-hidden md:overflow-x-auto md:flex md:justify-center">
                     <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
-                        <CsharpOriginal className="text-white dark:text-black"/>
+                        <CsharpOriginal className="text-white dark:text-black" />
                         <DotnetcoreOriginal className="text-white dark:text-black"/>
-                        <ElasticsearchOriginalWordmark className="text-white dark:text-black"/>
+                        <ElasticsearchOriginal className="text-white dark:text-black"/>
                         <GithubOriginal className="text-white dark:text-black"/>
                         <GrafanaOriginal className="text-white dark:text-black"/>
                         <HelmOriginal className="text-white dark:text-black"/>
@@ -59,24 +59,24 @@ function Skills({}: Props) {
                         <JqueryOriginal className="text-white dark:text-black"/>
                         <MariadbOriginal className="text-white dark:text-black"/>
                         <MicrosoftsqlserverPlain className="text-white dark:text-black"/>
-                        <MongodbOriginalWordmark className="text-white dark:text-black"/>
+                        <MongodbOriginal className="text-white dark:text-black"/>
                         <MysqlOriginal className="text-white dark:text-black"/>
-                        <NhibernateOriginalWordmark className="text-white dark:text-black"/>
+                        <NhibernateOriginal className="text-white dark:text-black"/>
                         <NodejsOriginal className="text-white dark:text-black"/>
                         <PythonOriginal className="text-white dark:text-black"/>
-                        <RabbitmqOriginalWordmark className="text-white dark:text-black"/>
-                        <RancherOriginalWordmark className="text-white dark:text-black"/>
+                        <RabbitmqOriginal className="text-white dark:text-black"/>
+                        <RancherOriginal className="text-white dark:text-black"/>
                         <Html5Original className="text-white dark:text-black"/>
                         <AngularOriginal className="text-white dark:text-black"/>
                         <JavascriptOriginal className="text-white dark:text-black"/>
                         <AzuresqldatabaseOriginal className="text-white dark:text-black"/>
                         <ReactOriginal className="text-white dark:text-black"/>
                         <BlazorOriginal className="text-white dark:text-black"/>
-                        <BootstrapOriginalWordmark className="text-white dark:text-black"/>
-                        <TailwindcssPlainWordmark className="text-white dark:text-black"/>
-                        <GitOriginalWordmark className="text-white dark:text-black"/>
+                        <BootstrapOriginal className="text-white dark:text-black"/>
+                        <TailwindcssOriginal className="text-white dark:text-black"/>
+                        <GitOriginal className="text-white dark:text-black"/>
                         <ReduxOriginal className="text-white dark:text-black"/>
-                        <DockerOriginalWordmark className="text-white dark:text-black"/>
+                        <DockerOriginal className="text-white dark:text-black"/>
                     </div>
                 </div>
             </div>
