@@ -50,7 +50,7 @@ function App() {
 
             <Navbar/>
 
-            <div className="flex flex-col justify-center w-full lg:w-3/4 my-0 mx-auto">
+            <div className="flex flex-col justify-center w-full lg:w-3/4 my-0 mx-auto space-y-28">
                 <section
                     className="[height:96vh] flex items-center justify-center flex-col [width: 90%] lg:w-full bg-white rounded-2xl m-4 dark:bg-black dark:m-0 dark:h-screen dark:rounded-none;">
                     <div className="absolute bottom-20 z-40 p-3 text-black dark:text-white">
