@@ -6,7 +6,7 @@ import {MdKeyboardDoubleArrowUp} from 'react-icons/md';
 
 import Navbar from './components/Navbar';
 import About from './components/About';
-import Projects from './components/Projects';
+import Works from './components/Works';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
@@ -79,7 +79,7 @@ function App() {
 
                 <section className="h-auto flex items-center justify-center flex-col text-white">
 
-                    <Projects/>
+                    <Works/>
 
                 </section>
 

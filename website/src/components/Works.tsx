@@ -13,7 +13,7 @@ import Schnell from "./Projects/schnell";
 type Props = {}
 
 
-function Projects({}: Props) {
+function Works({}: Props) {
     const [t, i18n] = useTranslation("global");
     return (
         <div className="w-full" id="projects">
@@ -30,4 +30,4 @@ function Projects({}: Props) {
     )
 }
 
-export default Projects
+export default Works
