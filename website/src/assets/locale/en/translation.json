@@ -2,6 +2,7 @@
   "navbar": {
     "work": "works",
     "skills": "skills",
+    "certificates" : "certificates",
     "about": "about",
     "contact": "contact"
   },
@@ -27,6 +28,7 @@
 
     "my skills": "my skills",
     "skills": "",
+    "myCertificates": "My Certificates",
 
     "download cv": "Download CV",
     "projects": "Experience",

@@ -45,6 +45,9 @@ function Navbar({}: Props) {
                         <a onClick={removeActive} href="#projects">{t("navbar.work")}</a>
                     </li>
                     <li className="block m-0 p-0 pt-8 hover:text-blue-200 dark:hover:text-blue-100 [writing-mode:vertical-rl] text-black dark:text-white">
+                        <a onClick={removeActive} href="#certificates">{t("navbar.certificates")}</a>
+                    </li>
+                    <li className="block m-0 p-0 pt-8 hover:text-blue-200 dark:hover:text-blue-100 [writing-mode:vertical-rl] text-black dark:text-white">
                         <a onClick={removeActive} href="#contact">{t("navbar.contact")}</a>
                     </li>
                 </ul>

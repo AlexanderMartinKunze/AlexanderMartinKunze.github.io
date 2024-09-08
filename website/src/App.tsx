@@ -11,6 +11,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
 import IMG from "../src/assets/image/cover.jpg"
+import Certificates from "./components/Certificates";
 
 function App() {
     const [t, i18n] = useTranslation("global");
@@ -80,6 +81,12 @@ function App() {
                 <section className="h-auto flex items-center justify-center flex-col text-white">
 
                     <Works/>
+
+                </section>
+
+                <section className="h-auto flex items-center justify-center flex-col text-white">
+
+                    <Certificates/>
 
                 </section>
 
