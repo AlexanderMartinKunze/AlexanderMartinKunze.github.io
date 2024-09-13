@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Blum from '../components/Projects/blum';
+import Blum from './Projects/blum';
 
 import {useTranslation} from 'react-i18next';
 

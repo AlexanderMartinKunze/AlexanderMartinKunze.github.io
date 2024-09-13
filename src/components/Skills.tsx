@@ -33,12 +33,22 @@ import {
 } from 'devicons-react';
 
 import {useTranslation} from 'react-i18next';
+import Divider from '@mui/material/Divider';
+import FaceIcon from '@mui/icons-material/Face';
+import Chip from '@mui/material/Chip';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+
 
 type Props = {}
 
 function Skills({}: Props) {
     const [t, i18n] = useTranslation("global");
-
+    const darkTheme = createTheme({
+        palette: {
+            mode: 'dark',
+        },
+    });
     return (
         <div id="skills">
             <div className="flex flex-col mt-4">
@@ -48,7 +58,7 @@ function Skills({}: Props) {
                 <div
                     className="w-full overflow-x-scroll overflow-y-hidden md:overflow-x-auto md:flex md:justify-center">
                     <div className="flex flex-wrap-reverse text-7xl skills mt-4 py-3 w-fit">
-                        <CsharpOriginal className="text-white dark:text-black" />
+                        <CsharpOriginal className="text-white dark:text-black"/>
                         <DotnetcoreOriginal className="text-white dark:text-black"/>
                         <ElasticsearchOriginal className="text-white dark:text-black"/>
                         <GithubOriginal className="text-white dark:text-black"/>
