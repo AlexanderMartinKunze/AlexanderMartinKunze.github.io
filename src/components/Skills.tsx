@@ -33,12 +33,6 @@ import {
 } from 'devicons-react';
 
 import {useTranslation} from 'react-i18next';
-import Divider from '@mui/material/Divider';
-import FaceIcon from '@mui/icons-material/Face';
-import Chip from '@mui/material/Chip';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-
 
 type Props = {}
 
