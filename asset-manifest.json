@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6adfe10a.css",
-    "main.js": "/Portfolio/static/js/main.1a720d46.js",
-    "static/media/schnell_cert.jpg": "/Portfolio/static/media/schnell_cert.2b9801828c47c384ffaf.jpg",
-    "static/media/metrohm.jpg": "/Portfolio/static/media/metrohm.1b0e2d8fcc50a96fd273.jpg",
-    "static/media/mia_cert.jpg": "/Portfolio/static/media/mia_cert.38870d28738c62d498df.jpg",
-    "static/media/blum_1.jpg": "/Portfolio/static/media/blum_1.025c2cc7c49fc8af4646.jpg",
-    "static/media/blum.jpg": "/Portfolio/static/media/blum.77cd8931e4c92106efdd.jpg",
-    "static/media/qkiss.png": "/Portfolio/static/media/qkiss.7d7d8eb66b286ea8d3d9.png",
-    "static/media/Mia.jpg": "/Portfolio/static/media/Mia.5e010fe47e9a585e6424.jpg",
-    "static/media/diplom.jpg": "/Portfolio/static/media/diplom.55642e47f82fe6b27565.jpg",
-    "static/media/uml_cert.jpg": "/Portfolio/static/media/uml_cert.e51648585ea14e02f5c7.jpg",
-    "static/media/proj_cert.jpg": "/Portfolio/static/media/proj_cert.79864383ac4508217e1f.jpg",
-    "static/media/blum_2.jpg": "/Portfolio/static/media/blum_2.a3f0b3af227f624e530f.jpg",
-    "static/media/net_core_cert.jpg": "/Portfolio/static/media/net_core_cert.bf4671579bd43afe9aa5.jpg",
-    "static/media/buoService.jpg": "/Portfolio/static/media/buoService.d4de3cdd7fc96315aa4c.jpg",
-    "static/media/cover.jpg": "/Portfolio/static/media/cover.d54705ca4f86f65d8c53.jpg",
-    "static/media/cover2.jpg": "/Portfolio/static/media/cover2.c785fa191472327d6c74.jpg",
-    "static/media/logo.png": "/Portfolio/static/media/logo.f1b63fe629b8014d6656.png",
-    "static/media/england.png": "/Portfolio/static/media/england.f62e2f2a8a059d13fe74.png",
-    "index.html": "/Portfolio/index.html",
-    "main.6adfe10a.css.map": "/Portfolio/static/css/main.6adfe10a.css.map",
-    "main.1a720d46.js.map": "/Portfolio/static/js/main.1a720d46.js.map"
+    "main.css": "/portfolio/static/css/main.6adfe10a.css",
+    "main.js": "/portfolio/static/js/main.ef0211c3.js",
+    "static/media/schnell_cert.jpg": "/portfolio/static/media/schnell_cert.2b9801828c47c384ffaf.jpg",
+    "static/media/metrohm.jpg": "/portfolio/static/media/metrohm.1b0e2d8fcc50a96fd273.jpg",
+    "static/media/mia_cert.jpg": "/portfolio/static/media/mia_cert.38870d28738c62d498df.jpg",
+    "static/media/blum_1.jpg": "/portfolio/static/media/blum_1.025c2cc7c49fc8af4646.jpg",
+    "static/media/blum.jpg": "/portfolio/static/media/blum.77cd8931e4c92106efdd.jpg",
+    "static/media/qkiss.png": "/portfolio/static/media/qkiss.7d7d8eb66b286ea8d3d9.png",
+    "static/media/Mia.jpg": "/portfolio/static/media/Mia.5e010fe47e9a585e6424.jpg",
+    "static/media/diplom.jpg": "/portfolio/static/media/diplom.55642e47f82fe6b27565.jpg",
+    "static/media/uml_cert.jpg": "/portfolio/static/media/uml_cert.e51648585ea14e02f5c7.jpg",
+    "static/media/proj_cert.jpg": "/portfolio/static/media/proj_cert.79864383ac4508217e1f.jpg",
+    "static/media/blum_2.jpg": "/portfolio/static/media/blum_2.a3f0b3af227f624e530f.jpg",
+    "static/media/net_core_cert.jpg": "/portfolio/static/media/net_core_cert.bf4671579bd43afe9aa5.jpg",
+    "static/media/buoService.jpg": "/portfolio/static/media/buoService.d4de3cdd7fc96315aa4c.jpg",
+    "static/media/cover.jpg": "/portfolio/static/media/cover.d54705ca4f86f65d8c53.jpg",
+    "static/media/cover2.jpg": "/portfolio/static/media/cover2.c785fa191472327d6c74.jpg",
+    "static/media/logo.png": "/portfolio/static/media/logo.f1b63fe629b8014d6656.png",
+    "static/media/england.png": "/portfolio/static/media/england.f62e2f2a8a059d13fe74.png",
+    "index.html": "/portfolio/index.html",
+    "main.6adfe10a.css.map": "/portfolio/static/css/main.6adfe10a.css.map",
+    "main.ef0211c3.js.map": "/portfolio/static/js/main.ef0211c3.js.map"
   },
   "entrypoints": [
     "static/css/main.6adfe10a.css",
-    "static/js/main.1a720d46.js"
+    "static/js/main.ef0211c3.js"
   ]
 }
