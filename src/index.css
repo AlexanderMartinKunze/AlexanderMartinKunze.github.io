@@ -128,7 +128,7 @@ html {
     }
 
     .bar {
-        background-color: #fff;
+        background-color: gray;
         width: 20px;
         height: 3px;
         display: block;
@@ -152,6 +152,7 @@ html {
     .navMenu {
         position: absolute;
         flex-direction: column;
+        color: black;
         gap: 0;
         top: 70px;
         left: -100%;
@@ -204,6 +205,7 @@ html {
 
     .nav.active ul {
         all: unset;
+        color: gray;
         display: flex;
         flex-direction: column;
         text-decoration: underline #000;
