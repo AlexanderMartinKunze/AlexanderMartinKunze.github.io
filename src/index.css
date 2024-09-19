@@ -236,3 +236,11 @@ img.a {
     height: 4.5rem !important;
     margin: 0 8px;
 }
+
+.customTooltipContainer .customTooltip {
+    border-radius: 50%;
+    padding: 18px;
+    font-size: x-large;
+    --rt-transition-show-delay: 0.15s;
+    --rt-transition-closing-delay: 0.15s;
+}
