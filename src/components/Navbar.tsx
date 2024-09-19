@@ -53,7 +53,7 @@ function Navbar({}: Props) {
                 </ul>
 
                 <div className="flex flex-col items-center justify-center social">
-                    <a onClick={removeActive} href="https://github.com/mashasbear" target="_blank"
+                    <a onClick={removeActive} href="https://github.com/alexandermartinkunze" target="_blank"
                        className="flex items-center justify-center p-0 w-12 h-12 text-black dark:text-white text-3xl hover:text-blue-200 dark:hover:text-blue-100"><FaGithub/></a>
                     <a onClick={removeActive} href="https://linkedin.com/in/alexander-k-269623124" target="_blank"
                        className="flex items-center justify-center p-0 w-12 h-12 text-black dark:text-white text-3xl hover:text-blue-200 dark:hover:text-blue-100"><FaLinkedin/></a>

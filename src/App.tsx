@@ -10,7 +10,7 @@ import Works from './components/Works';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
-import IMG from "./assets/image/cover.jpg"
+import IMG from "./assets/image/cover.png"
 import Certificates from "./components/Certificates";
 
 function App() {
