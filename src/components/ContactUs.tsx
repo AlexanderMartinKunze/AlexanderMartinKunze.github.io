@@ -61,7 +61,7 @@ const ContactUs: React.FC<ContactProps> = () => {
                 <div className="flex flex-row justify-center text-5xl">
                     <a href="mailto:alexkunze82@gmail.com"><MdOutlineAlternateEmail/></a>
                     <a href="https://linkedin.com/in/alexander-k-269623124"><FaLinkedinIn/></a>
-                    <a href="https://github.com/MashasBear"><FaGithub/></a>
+                    <a href="https://github.com/AlexanderMartinKunze"><FaGithub/></a>
                 </div>
             </div>
         </div>
