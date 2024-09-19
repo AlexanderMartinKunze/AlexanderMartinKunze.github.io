@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.c8f11810.css",
+    "main.css": "./static/css/main.a586446b.css",
     "main.js": "./static/js/main.83305877.js",
     "static/media/schnell_cert.jpg": "./static/media/schnell_cert.2b9801828c47c384ffaf.jpg",
     "static/media/metrohm.jpg": "./static/media/metrohm.1b0e2d8fcc50a96fd273.jpg",
@@ -20,11 +20,11 @@
     "static/media/logo.png": "./static/media/logo.f1b63fe629b8014d6656.png",
     "static/media/england.png": "./static/media/england.f62e2f2a8a059d13fe74.png",
     "index.html": "./index.html",
-    "main.c8f11810.css.map": "./static/css/main.c8f11810.css.map",
+    "main.a586446b.css.map": "./static/css/main.a586446b.css.map",
     "main.83305877.js.map": "./static/js/main.83305877.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8f11810.css",
+    "static/css/main.a586446b.css",
     "static/js/main.83305877.js"
   ]
 }
