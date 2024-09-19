@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.6adfe10a.css",
-    "main.js": "./static/js/main.cc81d15b.js",
+    "main.js": "./static/js/main.411830f4.js",
     "static/media/schnell_cert.jpg": "./static/media/schnell_cert.2b9801828c47c384ffaf.jpg",
     "static/media/metrohm.jpg": "./static/media/metrohm.1b0e2d8fcc50a96fd273.jpg",
     "static/media/mia_cert.jpg": "./static/media/mia_cert.38870d28738c62d498df.jpg",
@@ -15,16 +15,16 @@
     "static/media/blum_2.jpg": "./static/media/blum_2.a3f0b3af227f624e530f.jpg",
     "static/media/net_core_cert.jpg": "./static/media/net_core_cert.bf4671579bd43afe9aa5.jpg",
     "static/media/buoService.jpg": "./static/media/buoService.d4de3cdd7fc96315aa4c.jpg",
-    "static/media/cover.jpg": "./static/media/cover.d54705ca4f86f65d8c53.jpg",
     "static/media/cover2.jpg": "./static/media/cover2.c785fa191472327d6c74.jpg",
+    "static/media/cover.png": "./static/media/cover.862a116a2799f7465b0b.png",
     "static/media/logo.png": "./static/media/logo.f1b63fe629b8014d6656.png",
     "static/media/england.png": "./static/media/england.f62e2f2a8a059d13fe74.png",
     "index.html": "./index.html",
     "main.6adfe10a.css.map": "./static/css/main.6adfe10a.css.map",
-    "main.cc81d15b.js.map": "./static/js/main.cc81d15b.js.map"
+    "main.411830f4.js.map": "./static/js/main.411830f4.js.map"
   },
   "entrypoints": [
     "static/css/main.6adfe10a.css",
-    "static/js/main.cc81d15b.js"
+    "static/js/main.411830f4.js"
   ]
 }
