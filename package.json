@@ -1,6 +1,6 @@
 {
   "homepage": "http:/MashasBear.github.io/Portfolio",
-  "name": "website",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
