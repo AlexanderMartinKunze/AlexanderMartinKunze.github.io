@@ -205,10 +205,12 @@ html {
 
     .nav.active ul {
         all: unset;
-        color: gray;
+        color: goldenrod;
+        font-size: xx-large;
         display: flex;
+        white-space: pre-wrap;
         flex-direction: column;
-        text-decoration: underline #000;
+        text-decoration: underline goldenrod;
     }
 
     .nav.active img.logo {
