@@ -30,7 +30,7 @@ function Navbar({}: Props) {
         <header
             className={`flex flex-col items-center justify-start float-left fixed top-12 left-12 bottom-12 z-10 isolate nav ${isActive ? "active" : "disable"}`}>
             <nav className="flex flex-col justify-between items-center flex-auto max-w-12">
-                <a href="/public" className="flex items-center justify-center p-0 w-12 h-12 text-3xl">
+                <a href="./" className="flex items-center justify-center p-0 w-12 h-12 text-3xl">
                     <img src={ICON} className="rounded logo" alt="Logo"/>
                 </a>
 
