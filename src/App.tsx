@@ -47,7 +47,7 @@ function App() {
 
     return (
         <div
-            className="bg-white dark:bg-black h-screen text-white font-paytone rtl:font-lalezar font-medium transition-all">
+            className="bg-white dark:bg-black h-screen text-white font-paytone rtl:font-lalezar font-medium transition-none">
 
             <Navbar/>
 
