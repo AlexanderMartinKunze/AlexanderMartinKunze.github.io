@@ -41,14 +41,16 @@ function Metrohm({}: Props) {
                 <a href="https://www.metrohm.com/">
                     <TbWorldWww className="text-white dark:text-black"/>
                 </a>
-                <PhotoProvider>
-                    <PhotoView src={IMG_METROHM_CERT}>
-                        <img src={IMG_METROHM_CERT} width={100} height={100} style={{objectFit: 'cover'}}
-                             alt="Metrohm Certificate"/>
-                    </PhotoView>
-                </PhotoProvider>
+                {localStorage.getItem("language") === "ru" ? (
+                    <PhotoProvider>
+                        <PhotoView src={IMG_METROHM_CERT}>
+                            <img src={IMG_METROHM_CERT} width={100} height={100} style={{objectFit: 'cover'}}
+                                 alt="Metrohm Certificate"/>
+                        </PhotoView>
+                    </PhotoProvider>) : null}
 
             </div>
         </div>)
 }
+
 export default Metrohm;

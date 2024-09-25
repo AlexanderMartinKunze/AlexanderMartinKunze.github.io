@@ -1,7 +1,7 @@
 {
   "homepage": "./",
   "name": "Portfolio",
-  "version": "0.3.9",
+  "version": "0.4.1",
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

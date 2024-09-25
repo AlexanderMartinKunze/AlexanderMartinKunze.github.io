@@ -5,6 +5,7 @@ import Dropdown from './Dropdown'
 import {useTranslation} from 'react-i18next';
 import EN from "../assets/icon/england.png"
 import RU from "../assets/icon/russia.png"
+import AT from "../assets/icon/austria.png"
 import {MdLanguage} from "react-icons/md";
 
 type Props = {}
@@ -22,10 +23,10 @@ function MultiLang({}: Props) {
     };
 
     if (!localStorage.getItem("language")) {
-        localStorage.setItem("language", "en");
+        localStorage.setItem("language", "ru");
     }
 
-    if (localStorage.getItem("language") === "en") {
+    if (localStorage.getItem("language") === "en" || localStorage.getItem("language") === "at") {
         document.documentElement.setAttribute('dir', "ltr");
         document.title = "Alexander KUNZE";
 
@@ -48,6 +49,12 @@ function MultiLang({}: Props) {
             value: 'RU',
             label: <button className="flex items-center justify-center mt-1" onClick={() => handleChangeLanguage("ru")}>
                 <p>RU</p> &#10240;<img src={RU} className="rounded" alt="Russia Flag" width="50px" loading="lazy"/>
+            </button>
+        },
+        {
+            value: 'AT',
+            label: <button className="flex items-center justify-center mt-1" onClick={() => handleChangeLanguage("at")}>
+                <p>AT</p> &#10240;<img src={AT} className="rounded" alt="Austria Flag" width="50px" loading="lazy"/>
             </button>
         },
     ];

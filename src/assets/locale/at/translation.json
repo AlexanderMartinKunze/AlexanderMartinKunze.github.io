@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "work": "Erfahrung",
+    "skills": "Skills",
+    "certificates" : "Zertifikate",
+    "about": "Über mich",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "hello": "Servus",
+    "Welcome to my slice of the internet": "Willkommen zu meinem Stück vom Internet",
+    "CSharpDeveloper": "C# DEVELOPER",
+    "cancel": "Abbrechen",
+    "continue": "weiter"
+  },
+  "content": {
+    "alexanderkunze": "Alexander Kunze",
+    "reactjs": "Mit über 17 Jahren Erfahrung in der Backend-Entwicklung bin ich ein erfahrener C#-Entwickler, der sich auf ASP.NET, domänenorientiertes Design und Softwarearchitektur spezialisiert hat.\n\nMein Fachwissen erstreckt von der Erstellung robuster, skalierbarer Lösungen, die komplexe Geschäftsanforderungen erfüllen bis hin zu den notwendigen Integrationstests.\n\nIch verfüge über eine nachweisliche Erfolgsbilanz bei der Bereitstellung hochwertiger Softwarelösungen, wobei ich mein tiefes Verständnis des .NET-Frameworks und moderner Entwicklungspraktiken einsetze.\n\nIch habe umfangreiche Erfahrung in der Entwicklung von Webanwendungen mit ASP.NET Core und ASP.NET MVC. Ich bin geübt in der Anwendung von domänenorientierten Designprinzipien, um wartbare und skalierbare Softwarearchitekturen zu erstellen. Meine Fähigkeiten bei der Gestaltung und Implementierung von Softwarearchitekturen gewährleisten Effizienz und Skalierbarkeit. Ich habe Erfahrung mit dem Schreiben und der Pflege von Integrationstests, um die Zuverlässigkeit und Leistung von Softwareanwendungen zu gewährleisten. Als starker Verfechter agiler Praktiken, einschließlich Scrum und Kanban, verbessere ich die Produktivität des Teams und die Projektabwicklung. Darüber hinaus habe ich Erfahrung mit der Einrichtung und Pflege von CI/CD-Pipelines zur Rationalisierung des Entwicklungsprozesses.",
+
+    "my interests": "Meine Interessen",
+    "music": "Musik",
+    "sport": "Mountain Biking, Wandern",
+    "game": "Spieleabende",
+    "family": "Zeit mit meiner Frau und meinen beiden Töchtern verbringen",
+    "movie": "Kino",
+    "photo": "Fotografieren",
+    "travel": "Reisen",
+
+    "my skills": "Meine Skills",
+    "skills": "",
+    "myCertificates": "Meine Zertifikate",
+
+    "download cv": "Download CV",
+    "projects": "Erfahrungen",
+    "pr": "Ich bin ein Entwickler mit Erfahrung in C#, .Net Core, TypeScript und JavaScript, und Erfahrung mit Frameworks wie Asp.net, React, Node.js",
+
+    "boservice": "B & O Service AG München  (100% Remote)",
+    "boservice-desc": "Ich habe fortschrittliche Planungsalgorithmen entwickelt, die speziell für professionelle Handwerker gedacht sind. Diese Algorithmen nutzen künstliche Intelligenz, um Routen zu optimieren, was zu erheblichen Zeit- und Kosteneinsparungen führt. Durch die Analyse von Verkehrsdaten, Kundenstandorten und Auftragsprioritäten stellte ich sicher, dass die Handwerker ihre Aufgaben effizient und pünktlich erledigen konnten.\n\nUm eine flexible und iterative Entwicklungsumgebung zu fördern, wandte ich die agile Methodik 'Scrum' an. Dieser Ansatz ermöglichte es dem Team, schnell auf Änderungen zu reagieren und sich kontinuierlich zu verbessern. Durch regelmäßige Sprint-Planung, tägliche Stand-up-Meetings und Retrospektiven konnten wir die Zusammenarbeit und Kommunikation im Team deutlich verbessern.\n\nUm die Qualität und Zuverlässigkeit der Software zu gewährleisten, habe ich die Testautomatisierung auf allen Ebenen eingeführt. Dazu gehörten End-to-End-Tests, Unit-Tests, Integrationstests und Leistungstests. Durch den Einsatz automatisierter Testtools und Frameworks konnten wir Fehler frühzeitig erkennen und beheben, was zu einer stabileren und robusteren Software führte.\n\n",
+
+    "myexperience": "Ich bin C# Entwickler mit über 17 Jahren Erfahrung in verschiedenen Geschäftsbereichen",
+
+    "drschnell": "Dr Schnell GmbH München (100% Remote)",
+    "drschnell-desc": "Ich spielte eine zentrale Rolle bei der Umstellung unseres Entwicklungsframeworks von der Xamarin-Plattform auf MAUI und sorgte für eine reibungslose und effiziente Migration.\n\nDarüber hinaus übernahm ich die Aufgaben eines DevOps-Ingenieurs, der die Arbeitsabläufe innerhalb des Azure DevOps-Systems und auf der GitHub Actions-Plattform fachmännisch verwaltete und optimierte.\n\nZu meinen Beiträgen gehörte auch die Implementierung innovativer neuer Funktionen, wobei ich die Möglichkeiten der Xamarin- und MAUI-Plattformen nutzte, um die Funktionalität und das Benutzererlebnis unserer Anwendungen zu verbessern.\n\n",
+
+    "metrohm": "Metrohm AG Herisau (20% Remote, 80% On site)",
+    "metrohm-desc": "Während des gesamten Lebenszyklus der Softwareentwicklung war ich federführend bei der Entwicklung innovativer Anwendungen und Integrationswerkzeuge, die Hardware- und Softwarekomponenten nahtlos miteinander verbinden.\n\nMeine Arbeit sorgte für robuste und effiziente Lösungen, die auf die unterschiedlichsten Anforderungen zugeschnitten waren. Darüber hinaus habe ich umfassende automatisierte Teststrategien auf allen Ebenen implementiert und so die Zuverlässigkeit und Leistung unserer Systeme erheblich verbessert.\n\n",
+
+    "blum": "Julius Blum GmbH Hoechst (100% On site)",
+    "blum-desc": "Ich war verantwortlich für die Entwicklung kundenspezifischer Software für das Produktionsmanagementsystem unter Verwendung von Technologien wie C#, MySQL, DevExpress, WinForms, ASP.Net, WCF und verschiedenen Diensten.\n\n Ich analysierte und löste Probleme, um die stabile Ausführung von Aufgaben zu gewährleisten. Außerdem habe ich Prototypen mit C#, XML und SQLite entwickelt. Ich führte Tests und Analysen unter Verwendung eines getesteten Entwicklungsmusters mit C#, MSTest und UnitTest durch. Außerdem schulte ich junge C#-Programmierer und kümmerte mich um Kundenanfragen und Fehlerbehebung, insbesondere bei Gira.\n\nIch habe die Entwicklung und Implementierung verschiedener Anwendungen koordiniert und dabei mit Projektmanagern, Kundenvertretern und Entwicklungsteams zusammengearbeitet. Ich habe bei der Entwicklung von skalierbaren Anwendungen und automatisierten Produktionsanlagen im Maschinenbau mitgearbeitet. Ich setzte Datenbankfunktionen und Client-Anwendungen auf Basis von MySQL, Entity Framework, C# und VB ein.\n\nDarüber hinaus bildete ich Lehrlinge im CAD-System, insbesondere SolidWorks und Enovia, aus und war hauptsächlich für die Implementierung neuer Anlagen verantwortlich.\n\n",
+
+    "mia": "Mia-Systems & Software GmbH Dornbirn (20% Remote, 80% On site)",
+    "mia-desc": "Ich entwickelte Android-Anwendungen unter Verwendung der Xamarin.Forms-Plattform, die es mir ermöglichte, plattformübergreifende mobile Anwendungen mit einer einzigen Codebasis zu erstellen. Zusätzlich zu meiner Entwicklungsarbeit übernahm ich die technische Leitung verschiedener interner Projekte und stellte sicher, dass sie effizient abgeschlossen wurden und alle technischen Anforderungen erfüllten.\n\nZu meinen Aufgaben gehörte auch die Webentwicklung, bei der ich TypeScript und Angular einsetzte, um dynamische und reaktionsfähige Webanwendungen zu erstellen.\n\nEine meiner Hauptaufgaben war die Erstellung von Funktionen innerhalb der integrierten Testumgebung, die als „Release Verification“ bekannt ist. Dazu gehörte häufig die Automatisierung von Testfällen, um den Verifizierungsprozess zu rationalisieren und die Zuverlässigkeit der Software zu gewährleisten.\n\nDarüber hinaus entwickelte ich Strategien für die Speicherung und den Abruf von Informationen und optimierte die Datenverwaltung und den Datenzugriff innerhalb der Projekte, an denen ich arbeitete.\n\n",
+
+    "contact": "Sag einfach mal Hallo ;-)",
+
+    "copy": "2024 Alexander Kunze, All rights reserved",
+    "made with": "Made",
+    "in erfurt": "in Erfurt"
+  }
+}

@@ -41,18 +41,23 @@ function Blum({}: Props) {
                 <a href="https://www.blum.com/">
                     <TbWorldWww className="text-white dark:text-black"/>
                 </a>
-                <PhotoProvider>
-                    <PhotoView src={IMG_BLUM_CERT_1}>
-                        <img src={IMG_BLUM_CERT_1} width={100} height={100} style={{objectFit: 'cover'}}
-                             alt="Blum Certificate"/>
-                    </PhotoView>
-                </PhotoProvider>
-                <PhotoProvider>
-                    <PhotoView src={IMG_BLUM_CERT_2}>
-                        <img src={IMG_BLUM_CERT_2} width={100} height={100} style={{objectFit: 'cover'}}
-                             alt="Blum Certificate"/>
-                    </PhotoView>
-                </PhotoProvider>
+                {localStorage.getItem("language") === "ru" ? (
+                    <div>
+                        <PhotoProvider>
+                            <PhotoView src={IMG_BLUM_CERT_1}>
+                                <img src={IMG_BLUM_CERT_1} width={100} height={100} style={{objectFit: 'cover'}}
+                                     alt="Blum Certificate"/>
+                            </PhotoView>
+                        </PhotoProvider>
+                        <PhotoProvider>
+                            <PhotoView src={IMG_BLUM_CERT_2}>
+                                <img src={IMG_BLUM_CERT_2} width={100} height={100} style={{objectFit: 'cover'}}
+                                     alt="Blum Certificate"/>
+                            </PhotoView>
+                        </PhotoProvider>
+                    </div>
+                ) : null}
+
             </div>
         </div>)
 }

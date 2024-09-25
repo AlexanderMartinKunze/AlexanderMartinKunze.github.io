@@ -39,13 +39,13 @@ function Schnell({}: Props) {
         <a href="https://www.dr-schnell.com/">
             <TbWorldWww className="text-white dark:text-black"/>
         </a>
+        {localStorage.getItem("language") === "ru" ? (
         <PhotoProvider>
             <PhotoView src={IMG_DRSCHNELL_CERT}>
                 <img src={IMG_DRSCHNELL_CERT} width={100} height={100} style={{objectFit: 'cover'}}
                      alt="Dr Schnell Certificate"/>
             </PhotoView>
-        </PhotoProvider>
-
+        </PhotoProvider>): null};
     </div>
 </div>)}
 export default Schnell

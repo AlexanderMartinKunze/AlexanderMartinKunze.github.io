@@ -41,12 +41,13 @@ function Mia({}: Props) {
                 <a href="https://mia-systems.net/">
                     <TbWorldWww className="text-white dark:text-black"/>
                 </a>
+                {localStorage.getItem("language") === "ru" ? (
                 <PhotoProvider>
                     <PhotoView src={IMG_MIA_CERT}>
                         <img src={IMG_MIA_CERT} width={100} height={100} style={{objectFit: 'cover'}}
                              alt="MIA Systems Certificate"/>
                     </PhotoView>
-                </PhotoProvider>
+                </PhotoProvider>) : null}
             </div>
         </div>)
 }
