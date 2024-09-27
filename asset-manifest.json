@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.1a6cd32b.css",
-    "main.js": "./static/js/main.6f66bc38.js",
+    "main.js": "./static/js/main.b6158f11.js",
     "static/media/ArbeitszeugnisBlum.1.jpg": "./static/media/ArbeitszeugnisBlum.1.1009b0f8d01d7c49e8e9.jpg",
     "static/media/schnell_cert.jpg": "./static/media/schnell_cert.2b9801828c47c384ffaf.jpg",
     "static/media/metrohm.jpg": "./static/media/metrohm.1b0e2d8fcc50a96fd273.jpg",
@@ -32,10 +32,10 @@
     "static/media/england.png": "./static/media/england.f62e2f2a8a059d13fe74.png",
     "index.html": "./index.html",
     "main.1a6cd32b.css.map": "./static/css/main.1a6cd32b.css.map",
-    "main.6f66bc38.js.map": "./static/js/main.6f66bc38.js.map"
+    "main.b6158f11.js.map": "./static/js/main.b6158f11.js.map"
   },
   "entrypoints": [
     "static/css/main.1a6cd32b.css",
-    "static/js/main.6f66bc38.js"
+    "static/js/main.b6158f11.js"
   ]
 }
