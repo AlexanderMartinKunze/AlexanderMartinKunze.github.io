@@ -6,6 +6,9 @@ import IMG_BLUM_CERT_2 from "../../assets/image/documents/blum_2.jpg";
 import React from "react";
 import {useTranslation} from "react-i18next";
 
+import IMG_BLUM_CERT_AT_1 from "../../assets/image/documents/AT/ArbeitszeugnisBlum.1.jpg";
+import IMG_BLUM_CERT_AT_2 from "../../assets/image/documents/AT/ArbeitszeugnisBlum.2.jpg";
+
 type Props = {}
 
 
@@ -56,7 +59,25 @@ function Blum({}: Props) {
                             </PhotoView>
                         </PhotoProvider>
                     </div>
-                ) : null}
+                ) : localStorage.getItem("language") === "at" ? (
+                    <div>
+                        <PhotoProvider >
+                            <PhotoView src={IMG_BLUM_CERT_AT_1}>
+                                <img src={IMG_BLUM_CERT_AT_1} width={100} height={100} style={{objectFit: 'cover'}}
+                                     alt="Blum Certificate"/>
+                            </PhotoView>
+                        </PhotoProvider>
+                        <PhotoProvider>
+                            <PhotoView/>
+                        </PhotoProvider>
+                        <PhotoProvider>
+                            <PhotoView src={IMG_BLUM_CERT_AT_2}>
+                                <img src={IMG_BLUM_CERT_AT_2} width={100} height={100} style={{objectFit: 'cover'}}
+                                     alt="Blum Certificate"/>
+                            </PhotoView>
+                        </PhotoProvider>
+                    </div>
+                ):null}
 
             </div>
         </div>)

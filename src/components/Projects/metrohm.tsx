@@ -1,10 +1,12 @@
 import IMG_METROHM from "../../assets/image/project/metrohm.jpg";
 import {TbWorldWww} from "react-icons/tb";
 import {PhotoProvider, PhotoView} from "react-photo-view";
-import IMG_METROHM_CERT from "../../assets/image/documents/metrohm.jpg";
+
 import React from "react";
 import {useTranslation} from "react-i18next";
 
+import IMG_METROHM_CERT from "../../assets/image/documents/metrohm.jpg";
+import IMG_METROHM_CERT_AT from "../../assets/image/documents/AT/metrohm.jpg"
 
 type Props = {}
 
@@ -47,7 +49,13 @@ function Metrohm({}: Props) {
                             <img src={IMG_METROHM_CERT} width={100} height={100} style={{objectFit: 'cover'}}
                                  alt="Metrohm Certificate"/>
                         </PhotoView>
-                    </PhotoProvider>) : null}
+                    </PhotoProvider>) : localStorage.getItem("language") === "at" ? (
+                    <PhotoProvider>
+                        <PhotoView src={IMG_METROHM_CERT_AT}>
+                            <img src={IMG_METROHM_CERT_AT} width={100} height={100} style={{objectFit: 'cover'}}
+                                 alt="Metrohm Certificate"/>
+                        </PhotoView>
+                    </PhotoProvider>): null}
 
             </div>
         </div>)
