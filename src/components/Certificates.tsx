@@ -14,6 +14,8 @@ import IMG_WEB_AT from "../assets/image/documents/AT/webmaster.jpeg";
 import IMG_Core from "../assets/image/documents/net_core_cert.jpg";
 import IMG_CORE_AT from "../assets/image/documents/AT/netCore.jpg"
 
+import IMG_UNIT_AT from "../assets/image/documents/AT/unitTest.png";
+
 type Props = {}
 
 
@@ -116,6 +118,19 @@ function Certificates({}: Props) {
                                         height={250}
                                         style={{objectFit: "cover"}}
                                         alt="Webmaster"
+                                    />
+                                </PhotoView>
+                            ) : null}
+                        </PhotoProvider>
+                        <PhotoProvider>
+                            {localStorage.getItem("language") === "at" ? (
+                                <PhotoView src={IMG_UNIT_AT}>
+                                    <img
+                                        src={IMG_UNIT_AT}
+                                        width={250}
+                                        height={250}
+                                        style={{objectFit: "cover"}}
+                                        alt="Unit Test Zertifikat"
                                     />
                                 </PhotoView>
                             ) : null}
